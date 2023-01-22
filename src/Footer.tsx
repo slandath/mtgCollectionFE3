@@ -1,7 +1,7 @@
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import Link from "@mui/icons-material/Link";
+
 import GitHubIcon from "@mui/icons-material/GitHub";
 import IconButton from "@mui/material/IconButton";
 
@@ -9,11 +9,13 @@ const Footer = () => {
   return (
     <Box
       sx={{
-        marginTop: "calc(5% + 60px)",
+        // marginTop: "calc(5% + 60px)",
         width: "100%",
-        position: "absolute",
-        bottom: 0,
+        position: "fixed",
+        bottom: "0",
         backgroundColor: "primary.main",
+        // display: "flex",
+        // flexDirection: "column",
       }}
       component="footer"
     >
@@ -43,12 +45,15 @@ const Footer = () => {
             mb: 2,
           }}
         >
-          <Typography variant="subtitle2" sx={{ color: "white" }}>
+          <Typography variant="subtitle2" sx={{ color: "black" }}>
             Created by&nbsp;
             <a
               href="https://rakazirut.github.io"
               target="_blank"
-              style={{ color: "#FF8C00", textDecoration: "none" }}
+              style={{
+                color: "white",
+                textDecoration: "none",
+              }}
             >
               Rob Kazirut
             </a>
@@ -56,7 +61,10 @@ const Footer = () => {
             <a
               href="https://slandath.github.io"
               target="_blank"
-              style={{ color: "#FF8C00", textDecoration: "none" }}
+              style={{
+                color: "white",
+                textDecoration: "none",
+              }}
             >
               Tom Slanda
             </a>
