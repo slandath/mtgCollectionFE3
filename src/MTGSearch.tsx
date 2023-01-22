@@ -28,7 +28,7 @@ const MTGSearch = () => {
         id: scryfallData.data[0].id,
         name: scryfallData.data[0].name,
         price: scryfallData.data[0].prices.usd,
-        image: scryfallData.data[0].image_uris.normal,
+        image: scryfallData.data[0].image_uris.small,
       };
     });
 

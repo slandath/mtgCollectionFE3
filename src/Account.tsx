@@ -46,8 +46,8 @@ const Account = () => {
 
   return (
     <>
-      <Container maxWidth="sm">
-        <Typography variant="h2" gutterBottom>
+      <Container maxWidth="sm" sx={{ textAlign: "center" }}>
+        <Typography variant="h3" gutterBottom>
           MTG Collection App
         </Typography>
         <form onSubmit={submitHandler}>

@@ -24,10 +24,12 @@ const MTG = (props: any) => {
   }
 
   return (
-    <Container maxWidth="sm">
+    <>
       <Paper
         sx={{
+          display: "flex",
           alignItems: "center",
+          textAlign: "center",
           justifyContent: "center",
           listStyle: "none",
         }}
@@ -35,18 +37,13 @@ const MTG = (props: any) => {
         <ul>
           <img src={props.image} alt="card image" />
           <h2>{props.name}</h2>
-          <h3>{props.id}</h3>
           <p>${props.price}</p>
-          <Button
-            sx={{ display: "flex", margin: "auto" }}
-            variant="contained"
-            onClick={addCardHandler}
-          >
+          <Button variant="contained" onClick={addCardHandler}>
             Add to Collection
           </Button>
         </ul>
       </Paper>
-    </Container>
+    </>
   );
 };
 

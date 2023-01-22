@@ -37,14 +37,14 @@ const Header = () => {
             sx={{ bgcolor: "secondary.main", m: 1 }}
             onClick={goToMTGSearch}
           >
-            Add Cards
+            Add
           </Button>
           <Button
             variant="contained"
             sx={{ bgcolor: "secondary.main", m: 1 }}
             onClick={goToCollection}
           >
-            My Collection
+            View
           </Button>
           <Button
             variant="contained"

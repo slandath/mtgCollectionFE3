@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <Box
       sx={{
-        marginTop: "calc(10% + 60px)",
+        marginTop: "calc(5% + 60px)",
         width: "100%",
-        position: "fixed",
+        position: "absolute",
         bottom: 0,
         backgroundColor: "primary.main",
       }}
