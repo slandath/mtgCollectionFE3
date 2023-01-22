@@ -22,7 +22,7 @@ const Login = () => {
   async function loginHandler(e: React.FormEvent) {
     e.preventDefault();
 
-    let response = await fetch(`${baseURL}api/v1/login`, {
+    let response = await fetch(`${baseURL}/api/v1/login`, {
       method: "POST",
       headers: {
         Accept: "*/*",
