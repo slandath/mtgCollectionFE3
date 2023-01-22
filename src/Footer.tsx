@@ -1,6 +1,9 @@
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import Link from "@mui/icons-material/Link";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import IconButton from "@mui/material/IconButton";
 
 const Footer = () => {
   return (
@@ -22,7 +25,15 @@ const Footer = () => {
             display: "flex",
             my: 1,
           }}
-        ></Box>
+        >
+          <IconButton
+            href="https://github.com/slandath/mtgCollectionFE3"
+            target="_blank"
+            style={{ color: "white" }}
+          >
+            <GitHubIcon fontSize="large" />
+          </IconButton>
+        </Box>
 
         <Box
           sx={{
@@ -32,8 +43,23 @@ const Footer = () => {
             mb: 2,
           }}
         >
-          <Typography variant="caption" color="white">
-            Created by Rob Kazirut and Tom Slanda
+          <Typography variant="subtitle2" sx={{ color: "white" }}>
+            Created by&nbsp;
+            <a
+              href="https://rakazirut.github.io"
+              target="_blank"
+              style={{ color: "#FF8C00", textDecoration: "none" }}
+            >
+              Rob Kazirut
+            </a>
+            &nbsp;and&nbsp;
+            <a
+              href="https://slandath.github.io"
+              target="_blank"
+              style={{ color: "#FF8C00", textDecoration: "none" }}
+            >
+              Tom Slanda
+            </a>
           </Typography>
         </Box>
       </Container>
