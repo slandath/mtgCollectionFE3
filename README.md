@@ -6,12 +6,12 @@
 
 ### About the App
 ----
-<p>Frontend is built using React + Vite + Material UI
-Backend is built using NodeJS + Express + Axios</p>
-----
-<p>An SPA to track the price of MTG cards.  
-- Using the Scryfall API, search for an MTG card
-- Add the card to your collection
-- View your collection
-  - Prices automatically update on fetch
-  </p>
+#### An SPA to track the price of MTG cards.
+<ul>
+  <li>Frontend is built using <b>React + Vite + Material UI</b></li>
+  <li>Backend is built using <b>NodeJS + Express + Axios</b></li>
+<li>Using the <a href="https://scryfall.com/docs/api" target="_blank">Scryfall API</a>, search for an MTG card</li>
+  <li>Add the card to your collection</li>
+  <li>View your collection</li>
+  <li>Prices automatically update on fetch</li>
+  </ul>
