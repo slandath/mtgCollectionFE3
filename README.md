@@ -6,8 +6,8 @@
 
 ### About the App
 ----
-<p>Frontend is built using React + Vite + Material UI</p></br>
-<p>Backend is built using NodeJS + Express + Axios</p>
+<p>Frontend is built using React + Vite + Material UI
+Backend is built using NodeJS + Express + Axios</p>
 ----
 <p>An SPA to track the price of MTG cards.  
 - Using the Scryfall API, search for an MTG card
